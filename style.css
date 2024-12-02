@@ -111,16 +111,19 @@ form input, form textarea {
     color: #f1f1f1;
 }
 
+/* Botão Adicionar */
 form button {
-    background: #2b2e4a;
+    background: #2b2e4a; /* Cor atualizada */
     color: #fff;
     font-weight: bold;
     cursor: pointer;
-    transition: background 0.3s ease;
+    border: 1px solid #ffdd59; /* Adicionando um contorno para destacar */
+    transition: background 0.3s ease, border-color 0.3s ease;
 }
 
 form button:hover {
-    background: #ff4757;
+    background: #343a40; /* Efeito mais escuro no hover */
+    border-color: #ffdd59; /* Realçando o contorno */
 }
 
 /* Responsividade */
@@ -137,4 +140,5 @@ form button:hover {
         padding: 15px;
     }
 }
+
 
